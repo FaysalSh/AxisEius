@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home - Axis Eius</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+<!-- 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Shrikhand&family=The+Seasons&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            max-width: 100%;
+            overflow-x: hidden;
+
+        }
+
+        .update {
+            background-color: #B20101;
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        /*
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }*/
+        .title {
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px 0;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: #B20101;
+           
+        }
+
+        .mySwiper .swiper-wrapper {
+            justify-content: flex-start !important;
+        }
+
+        .mySwiper .swiper-slide {
+            transform: none !important;
+        }
+
+
+
+
+        /* Media query for screens smaller than 768px (typical tablet size) */
+        @media screen and (max-width: 768px) {
+            .swiper {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .swiper-slide {
+                width: 250px;
+                height: 250px;
+            }
+
+            .title {
+                font-size: 18px;
+                padding: 15px 0;
+            }
+
+            .search-results-container .class-item {
+                width: calc(50% - 20px) !important;
+            }
+
+            .search-results-container {
+                width: 95%;
+            }
+
+            .swiper-slide img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        /* Media query for screens smaller than 480px (typical smartphone size) */
+        @media screen and (max-width: 480px) {
+            .swiper {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .swiper-slide {
+                width: 200px;
+                height: 200px;
+            }
+
+            .title {
+                font-size: 16px;
+                padding: 10px 0;
+            }
+
+            .search-results-container .class-item {
+                width: calc(100% - 20px) !important;
+            }
+
+            .search-results-container {
+                width: 100%;
+            }
+
+            nav input[type="text"] {
+                width: 90%;
+                padding: 8px;
+            }
+
+            .search-overlay {
+                padding: 10px;
+            }
+
+            #closeSearchResults {
+                font-size: 30px;
+                top: 10px;
+                right: 10px;
+            }
+
+            .class-container {
+                padding: 10px;
+            }
+
+            .class-item {
+                padding: 15px;
+                height: auto;
+                margin: 5px;
+            }
+
+            .swiper-slide img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+        }
+        .favoriteImage{
+            width:300px;
+            height: 200px;
+            /* object-fit: contain; */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <ul id="navbar">
+            <li><a href="#">Health + Wellness</a>
+                <ul>
+                    <li><a href="/client/articles.html?subcategory=women-health">Women's Health</a></li>
+                    <li><a href="/client/articles.html?subcategory=reproduction-and-sexual-health">Reproductive And Sexual Health</a></li>
+                    <li><a href="/client/articles.html?subcategory=mental-health">Mental Health</a></li>
+                    <li><a href="/client/articles.html?subcategory=menopause-and-aging">Menopause and Aging</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Fitness + Nutrition</a>
+                <ul>
+                    <li><a href="/client/articles.html?subcategory=Nutrition">Nutrition</a></li>
+                    <li><a href="/client/articles.html?subcategory=Fitness">Fitness</a></li>
+                    <li><a href="/client/articles.html?subcategory=Workout">Workout</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lifestyle</a>
+                <ul>
+                    <!--here you can put instead of "#" the name of the page once created-->
+                    <li><a href="/client/lifestyle.html">Lifestyle and Wellness</a></li>
+                    <li><a href="/client/lifestyle.html">Relationships</a></li>
+                    <li><a href="/client/lifestyle.html">Technology and Innovation</a></li>
+                    <li><a href="/client/lifestyle.html">Hacks</a></li>
+                    <li><a href="/client/lifestyle.html">Travel</a></li>
+                    <li><a href="/client/lifestyle.html">Motherhood</a></li>
+                    <li><a href="/client/lifestyle.html">Family</a></li>
+                </ul>
+            </li>
+            <li><a href="#">People</a>
+                <ul>
+                    <li><a href="/client/people.html">people</a></li>
+                    <li><a href="/client/people.html">people</a></li>
+                </ul>
+            </li>
+            <li class="logo-item"><a href="/client/index.html" class="logo-link">
+                    <img src="/client/img/logo/axis logo final.png" alt="Axis Eius Logo" class="rectangular-logo">
+                </a></li>
+            <li class="keep-touch"><a href="/client/contact.html">Keep in touch</a></li>
+            <li class="search-bar">
+                <a href="#" class="search-icon"><img src="/client/img/icons/icons8-search-50.png" alt="Search"></a>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+            </li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Include jQuery and Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+
+
+    <!-- Template Javascript -->
+    <script src="/client/js/main.js"></script>
+    <script src="/client/js/trueStories.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</body>
+
+</html>

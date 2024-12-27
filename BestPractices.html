@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Best Practices</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+     background: url(../images/bg-body.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     padding: 0;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 28px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+.text_align_center {
+     text-align: center;
+}
+
+.text_align_left {
+     text-align: left;
+}
+
+.text_align_right {
+     text-align: right;
+}
+
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.container {
+     max-width:1000px;
+}
+
+        </style>
+      
+    </head>
+
+    <body>
+     <!--NOTE THAT THIS IS A TEMPLATE BECAUSE I DIDN'T KNOW WHAT TO INCLUDE, REMOVE ALL TEXTS AND WRITEWHAT YOU SEE BEST-->
+     <nav>
+          <ul id="navbar">
+              <li><a href="/client/health&wellness.html">Health + Wellness</a>
+                  <ul>
+                      <li><a href="/client/articles.html">Women's Health</a></li>
+                      <li><a href="#">Reproductive And Sexual Health</a></li>
+                      <li><a href="#">Mental Health</a></li>
+                      <li><a href="#">Menopause and Aging</a></li>
+                  </ul>
+              </li>
+              <li><a href="/client/nutrition&fitness.html">Fitness + Nutrition</a>
+                  <ul>
+                      <li><a href="/client/articles2.html">Nutrition</a></li>
+                      <li><a href="/client/articles3.html">Fitness</a></li>
+                  </ul>
+              </li>
+              <li><a href="/client/lifestyle.html">Lifestyle</a>
+                  <ul>
+                      <!--here you can put instead of "#" the name of the page once created-->
+                      <li><a href="#">Lifestyle and Wellness</a></li>
+                      <li><a href="#">Relationships</a></li>
+                      <li><a href="#">Technology and Innovation</a></li>
+                      <li><a href="#">Hacks</a></li>
+                      <li><a href="#">Travel</a></li>
+                      <li><a href="#">Motherhood</a></li>
+                      <li><a href="#">Family</a></li>
+                  </ul>
+              </li>
+              <li><a href="/client/people.html">People</a>
+                  <ul>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                  </ul>
+              </li>
+              <li class="logo-item"><a href="/client/index.html" class="logo-link">
+                      <img src="/client/img/logo/axis logo final.png" alt="Axis Eius Logo" class="rectangular-logo">
+                  </a></li>
+              <li class="keep-touch"><a href="/client/contact.html">Keep in touch</a></li>
+              <li class="search-bar">
+                  <a href="#" class="search-icon"><img src="/client/img/icons/icons8-search-50.png" alt="Search"></a>
+                  <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+              </li>
+          </ul>
+              <div class="menu-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+          </nav>
+      
+   
+        
+        <!-- Slider Area -->
+		<section class="slider">
+			<div class="hero-slider">
+				<!-- Start Single Slider -->
+				<div class="single-slider" style="background-image:url('/client/img/ae picture/pexels-gabby-k-6621092.jpg')">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="text">
+									<h1>Lorem ipsum dolor sit amet</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
+									<div class="button">
+										<a href="/client/contact.html" class="btn">Contact Us</a>
+										<a href="/client/index.html" class="btn primary">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Single Slider -->
+</section>
+		<!--/ End Slider Area -->
+        
+        <!-- Start Schedule Area -->
+		<section class="schedule">
+			<div class="container">
+				<div class="schedule-inner">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-12 ">
+							<!-- single-schedule -->
+							<div class="single-schedule first">
+								<div class="inner">
+									
+									<div class="single-content">
+										<span>Lorem Amet</span>
+										<h4>Lorem Amet</h4>
+										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<!-- single-schedule -->
+							<div class="single-schedule middle">
+								<div class="inner">
+									<div class="icon">
+										<i class="icofont-prescription"></i>
+									</div>
+									<div class="single-content">
+										<span>Lorem Amit</span>
+										<h4>Lorem Amet</h4>
+										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-12">
+							<!-- single-schedule -->
+							<div class="single-schedule last">
+								<div class="inner">
+									<div class="icon">
+										<i class="icofont-ui-clock"></i>
+									</div>
+										<div class="single-content">
+                                            <span>Lorem Amit</span>
+                                            <h4>Lorem Amet</h4>
+                                            <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+                                            <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/End Start schedule Area -->
+      
+         <!-- More about best practices -->
+      <div class="sports">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-10 offset-md-1">
+                 <div class="titlepage text_align_center">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
+                   
+                 </div>
+              </div>
+           </div>
+           <div class="row d_flex">
+              <div class="col-md-3">
+                 <div class="sports_main text_align_center">
+                    <figure><img  src="/client/img/ae picture/pexels-cottonbro-4045539.jpg" alt="#"/></figure>
+                    <div class="sports_text">
+                       <h3>Article 1</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
+                       <a class="read_more" href="#">Read More</a>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="sports_main text_align_center">
+                    <figure><img class="dorder" src="/client/img/ae picture/pexels-gabby-k-6620854.jpg" alt="#"/></figure>
+                    <div class="sports_text">
+                       <h3 class="dark3">Article 2</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
+                       <a class="read_more" href="#">Read More</a>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                 <div class="sports_main text_align_center">
+                    <figure><img src="/client/img/ae picture/pexels-cottonbro-5853820.jpg" alt="#"/></figure>
+                    <div class="sports_text">
+                       <h3>Article 3</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
+                       <a class="read_more" href="#">Read More</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+   
+     <footer>
+          <div class="footer-content">
+              <div class="centered-logo">
+                  <img src="/client/img/logo/ae logo.png" alt="Mini Logo" class="circular-logo">
+              </div>
+              <div class="footer-links">
+                  <div class="column">
+                      <h4><b>Axis Eius Initiative</b></h4>
+                      <ul>
+                          <li><a href="/client/about.html">About us</a></li>
+                          <li><a href="/client/mission.html">Mission</a></li>
+                          <li><a href="/client/vision.html">Vision</a></li>
+                          <li><a href="/client/writeWithUs.html#contribute">Contribute</a></li>
+                          <li><a href="/client/writeWithUs.html#collaborate">Collaborate</a></li>
+                          <li><a href="/client/writeWithUs.html#write-with-us">Write with us</a></li>
+                          <li><a href="/client/contact.html">Contact Us</a></li>
+                      </ul>
+                  </div>
+                  <div class="column">
+                      <h4><b>Explore</b></h4>
+                      <ul>
+                          <li><a href="/client/health&wellness.html">Health + WellBeing</a></li>
+                          <li><a href="/client/nutrition&fitness.html">Fitness and Nutrition</a></li>
+                          <li><a href="/client/lifestyle.html">Lifestyle</a></li>
+                          <li><a href="/client/people.html">People</a></li>
+                      </ul>
+                  </div>
+                  <div class="column">
+                      <h4><b>Resources</b></h4>
+                      <ul>
+                          <li><a href="/client/Blog2.html">Blog</a></li>
+                          <li><a href="/client/BestPractices.html">Best practices</a></li>
+                          <li><a href="/client/Products.html">Products</a></li>
+                          <li><a href="/client/support.html">Support</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <p>&copy; 2024 Axis Eius</p>
+      </footer>
+      <a href="index.html" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script> 
+<!-- Include jQuery and Owl Carousel JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+
+
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script> 
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+        
+          function toggleMenu() {
+      var navbar = document.getElementById("navbar");
+      if (navbar.className === "") {
+          navbar.className = "responsive";
+      } else {
+          navbar.className = "";
+      }
+  }
+          </script>
+
+		
+    </body>
+    </html>
